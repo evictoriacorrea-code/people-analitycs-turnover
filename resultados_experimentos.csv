@@ -1,0 +1,13 @@
+Modelo,Descrição,Acurácia,Precisão,Recall,Specificity,F1 Score,Tempo em Segundo
+Regressão Logística,"normalizacao standard, sem balanceamento",0.87755102,0.54838710,0.43589744,0.94509804,0.48571429,0.00192785
+Regressão Logística,"normalizacao standard, balanceamento under",0.74736842,0.73076923,0.79166667,0.70212766,0.76000000,0.00111914
+Regressão Logística,"normalizacao standard, balanceamento over",0.78744939,0.76806084,0.82113821,0.75403226,0.79371316,0.00176358
+Regressão Logística,"normalizacao minmax, sem balanceamento",0.89115646,0.66666667,0.35897436,0.97254902,0.46666667,0.00136781
+Regressão Logística,"normalizacao minmax, balanceamento under",0.83157895,0.83333333,0.83333333,0.82978723,0.83333333,0.00215983
+Regressão Logística,"normalizacao minmax, balanceamento over",0.77530364,0.76264591,0.79674797,0.75403226,0.77932406,0.00261974
+SVM,"normalizacao standard, sem balanceamento",0.89115646,0.64000000,0.41025641,0.96470588,0.50000000,0.01341915
+SVM,"normalizacao standard, balanceamento under",0.70526316,0.67857143,0.79166667,0.61702128,0.73076923,0.00335813
+SVM,"normalizacao standard, balanceamento over",0.78137652,0.78278689,0.77642276,0.78629032,0.77959184,0.03065801
+SVM,"normalizacao minmax, sem balanceamento",0.90476190,0.73913043,0.43589744,0.97647059,0.54838710,0.01088881
+SVM,"normalizacao minmax, balanceamento under",0.80000000,0.77358491,0.85416667,0.74468085,0.81188119,0.00395155
+SVM,"normalizacao minmax, balanceamento over",0.78947368,0.77519380,0.81300813,0.76612903,0.79365079,0.03401566
